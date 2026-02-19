@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+🎓 EduManage | Elite Student Dashboard
+A professional-grade, full-stack student management portal built with React.js and Supabase. This project features a high-performance 10/10 UI designed for administrative efficiency and data clarity.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚀 Features
+Elite UI/UX: Minimalist, high-contrast design with a precision 3-column data grid for academic records.
+Real-time Synchronization: Powered by Supabase for instant data retrieval and cloud storage.
+Dynamic Student Profiles: Comprehensive profile views including Roll Numbers, Courses, Departments, and Emergency Contacts.
+Cloud Registration: Streamlined enrollment form with instant feedback and recent activity logs.
+Responsive Architecture: Built using a modern React component structure and a robust Git-managed workflow.
 
-## Available Scripts
+🛠️ Tech Stack
+Frontend: React.js
+Backend/Database: Supabase (PostgreSQL)
+Styling: Custom CSS with an emphasis on geometric precision and whitespace
+Icons: Feather/Lucide SVG Iconography
 
-In the project directory, you can run:
+🔧 Installation & Setup
+Clone the Repository:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+git clone https://github.com/Jazz2407/Edumanage.git
+cd student-registration-app
+Install Dependencies:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+npm install
+Configure Environment Variables:
+Create a .env file in the root directory and add your Supabase credentials:
 
-### `npm test`
+Code snippet
+REACT_APP_SUPABASE_URL=your_url
+REACT_APP_SUPABASE_ANON_KEY=your_key
+Run the App:
+npm start
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img width="1833" height="910" alt="Screenshot 2026-02-19 191924" src="https://github.com/user-attachments/assets/4f561987-680b-4579-aefc-5586db2d19bd" />
