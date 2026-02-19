@@ -1,0 +1,59 @@
+:root {
+  --sidebar-bg: #0f172a;
+  --accent: #4f46e5;
+  --bg: #f8fafc;
+  --sidebar-w: 400px;
+}
+
+.dashboard-container { display: flex; height: 100vh; overflow: hidden; background: var(--bg); font-family: 'Inter', sans-serif; }
+
+/* Sidebar */
+.sidebar { width: var(--sidebar-w); background: var(--sidebar-bg); color: white; display: flex; flex-direction: column; padding: 30px; box-shadow: 4px 0 20px rgba(0,0,0,0.1); }
+.sidebar-header { display: flex; align-items: center; gap: 15px; margin-bottom: 40px; }
+.logo-box { width: 45px; height: 45px; background: var(--accent); border-radius: 12px; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 1.2rem; }
+.admin-link { font-size: 0.75rem; color: #94a3b8; cursor: pointer; text-decoration: underline; }
+
+.sidebar-content { flex: 1; overflow-y: auto; padding-right: 5px; }
+.sidebar-content::-webkit-scrollbar { width: 5px; }
+.sidebar-content::-webkit-scrollbar-thumb { background: #334155; border-radius: 10px; }
+
+/* Form Layout */
+.input-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 12px; }
+.section-label { font-size: 0.7rem; font-weight: 700; color: #64748b; letter-spacing: 1px; margin: 20px 0 10px; text-transform: uppercase; }
+.registration-form { display: flex; flex-direction: column; gap: 12px; }
+.registration-form input { 
+  background: #1e293b; border: 1px solid #334155; color: white; padding: 12px; border-radius: 8px; font-size: 0.85rem; outline: none; transition: 0.2s;
+}
+.btn-submit { background: var(--accent); color: white; border: none; padding: 15px; border-radius: 8px; font-weight: 600; cursor: pointer; transition: 0.3s; }
+.btn-submit:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3); }
+
+/* Main Content & Search Header */
+.main-content { flex: 1; padding: 60px; overflow-y: auto; }
+.search-group { display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 30px; }
+.search-input-wrapper { display: flex; flex-direction: column; gap: 5px; flex: 1; max-width: 400px; }
+.search-input-wrapper input { border: 1px solid #e5e7eb; border-radius: 12px; padding: 12px 20px; font-size: 1rem; outline: none; }
+.btn-retrieve-black { background: #000; color: #fff; border-radius: 20px; padding: 10px 30px; font-weight: bold; border: none; cursor: pointer; transition: 0.2s; }
+.btn-retrieve-black:hover { opacity: 0.8; }
+
+/* Profile & 3-Column Grid */
+.profile-container { background: white; padding: 40px; border-radius: 28px; box-shadow: 0 10px 40px rgba(0,0,0,0.02); border: 1px solid #f1f5f9; }
+.profile-header { display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #f1f5f9; padding-bottom: 30px; margin-bottom: 30px; }
+.avatar { width: 80px; height: 80px; background: #e0e7ff; color: var(--accent); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 2.2rem; font-weight: 800; }
+.active-tag { color: #10b981; font-weight: bold; }
+
+.details-grid-3-col { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; margin-top: 20px; }
+.data-box label { display: block; font-size: 0.7rem; font-weight: 800; color: #9ca3af; text-transform: uppercase; margin-bottom: 8px; letter-spacing: 0.5px; }
+.data-box p { margin: 0; font-weight: 600; color: #111827; font-size: 0.95rem; }
+
+/* Premium Action Buttons */
+.header-actions { display: flex; gap: 12px; }
+.btn-edit-premium, .btn-save-premium { display: inline-flex; align-items: center; gap: 8px; padding: 8px 18px; border-radius: 10px; font-size: 0.85rem; font-weight: 700; cursor: pointer; transition: 0.2s; }
+.btn-edit-premium { background: white; color: var(--accent); border: 1.5px solid #e0e7ff; }
+.btn-edit-premium:hover { background: #f5f7ff; border-color: var(--accent); transform: translateY(-2px); }
+.btn-save-premium { background: #10b981; color: white; border: none; }
+.btn-save-premium:hover { background: #059669; transform: translateY(-2px); }
+
+/* Activity Logs */
+.activity-item { background: #1e293b; padding: 12px; border-radius: 8px; margin-bottom: 8px; border: 1px solid #334155; }
+.activity-item p { margin: 0; font-size: 0.85rem; font-weight: 600; }
+.activity-item span { font-size: 0.75rem; color: #94a3b8; }

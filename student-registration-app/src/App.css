@@ -1,0 +1,46 @@
+/* Base styles to ensure the dashboard fills the screen */
+body, html, #root, .App {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden; /* Prevents double scrollbars with the sidebar layout */
+  background-color: #f8fafc;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Professional Navbar Styling */
+.main-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  background-color: #0f172a;
+  color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.main-navbar h1 {
+  font-size: 1.25rem;
+  margin: 0;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.nav-info span {
+  font-size: 0.8rem;
+  color: #94a3b8;
+  text-transform: uppercase;
+}
+
+/* Container for the StudentForm dashboard */
+.content-area {
+  flex: 1;
+  display: flex;
+  height: calc(100vh - 55px); /* Subtracts navbar height */
+}
